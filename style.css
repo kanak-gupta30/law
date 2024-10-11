@@ -1,0 +1,545 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    width: 1420px;
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo img {
+    height: 100px;
+    margin: 0px 220px;
+}
+
+header .call {
+    display: flex;
+    margin: 20px 30px 30px;
+}
+
+header .call img {
+    height: 40px;
+    width: 40px;
+    margin: 5px 15px;
+    border: 1px solid black;
+}
+
+header .call .number {
+    display: flex;
+    flex-direction: column;
+}
+
+header .call .number .h1 {
+    font-size: 1.3rem;
+    color: orange;
+    font-weight: 600;
+}
+
+header .call .number .no {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(63, 55, 55);
+}
+
+header .fc {
+    width: auto;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin: 32px;
+    height: 40px;
+    padding: 7px 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.bar {
+    background-color: black;
+    width: 1390px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bar a {
+    margin: 0px 25px;
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    color: orange;
+}
+
+.first {
+    height: 680px;
+    width: 1420px;
+}
+
+.first img {
+    height: 680px;
+    width: 1420px;
+}
+
+.second {
+    width: 920px;
+    display: flex;
+    padding: 70px 250px;
+    text-align: center;
+
+}
+
+.second .e {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.second .e:hover {
+    width: 900px;
+    height: 300px;
+    transform: translate3d(-1px, 2px, -1px) scale(0.9);
+    box-shadow: 2px 2px rgb(232, 228, 228), 2px 2px 2px 2px rgb(247, 243, 243);
+}
+
+.second .e img {
+    width: 140px;
+    height: 100px;
+    margin: 15px;
+    border: none;
+}
+
+.second .e .h {
+    font-size: 1.5rem;
+    color: rgb(21, 20, 20);
+    font-weight: 600;
+    margin: 10px;
+}
+
+.second .e .c {
+    color: rgb(94, 85, 85);
+}
+
+.second .e button img {
+    width: 50px;
+    height: 30px;
+}
+
+.second .e button {
+    background-color: initial;
+    border: none;
+}
+
+.third {
+    padding: 50px;
+    width: 1310px;
+    text-align: center;
+    border: 5px solid rgb(128, 128, 190);
+}
+
+.third .h {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: rgb(48, 38, 38);
+}
+
+.third .line {
+    background-color: orange;
+    width: 60px;
+    height: 1.3px;
+    border: 2px solid orange;
+}
+
+.third .elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 95px;
+}
+
+.third .elements .element img {
+    width: 370px;
+    padding: 0px 0px;
+}
+
+.third button {
+    width: 300px;
+    padding: 12px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+.fourth {
+    width: 1220px;
+    padding: 100px;
+    box-shadow: 3px 3px rgb(217, 210, 210), 3px 3px rgb(243, 236, 236);
+    text-align: center;
+}
+
+.fourth img {
+    margin: 30px;
+    border: 2px solid black;
+    height: 60px;
+    width: 100px;
+}
+
+.fifth {
+    text-align: center;
+    width: 1260px;
+    border: 1px solid black;
+    padding: 80px;
+    height: 430px;
+}
+
+.fifth .h {
+    font-size: 2.3rem;
+    font-weight: 600;
+    display: inline;
+    background-color: white;
+    padding: 20px;
+}
+
+.fifth .main-block .line {
+    background-color: orange;
+    width: 60px;
+    height: 1.8px;
+    margin-top: 30px;
+    border: 2px solid orange;
+}
+
+.fifth .main-block {
+    border: 3px solid orange;
+    margin: -15px 150px;
+    height: 350px;
+    padding: 20px 0px;
+}
+
+.fifth .main-block .blocks {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0px 0px;
+    height: 250px;
+}
+
+.fifth .main-block .blocks button {
+    font-size: 5rem;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(83, 73, 73);
+    background-color: initial;
+}
+
+.fifth .main-block .blocks .block {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    overflow: hidden;
+}
+
+.fifth .main-block .blocks .block .bl {
+    height: 240px;
+    width: 680px;
+}
+
+.fifth .main-block .block .b {
+    padding: 60px 2px;
+    line-height: 20px;
+    width: 702px;
+    color: rgb(135, 124, 124);
+}
+
+.fifth .main-block .block .writer {
+    font-size: 1.5rem;
+    margin: -40px;
+    color: rgb(63, 57, 57);
+    font-weight: 600;
+}
+
+.fifth button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: orange;
+    border: 15px solid white;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+.sixth{
+    height: 640px;
+    display: flex;
+    width: 1420px;
+}
+.sixth .six1{
+    background-image: url("images/fifth.webp");
+    width: 900px;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    padding: 100px 50px;
+    color: white;
+    font-size: 3rem;
+}
+.sixth .six2{
+    height: 520px;
+    width: 720px;
+    padding: 50px 100px 60px 60px;
+}
+.sixth .six2 .h{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(55, 48, 48);
+}
+.sixth .six2 .line{
+    width: 70px;
+    background-color: orange;
+    height:5px;
+    margin-left: -0px;
+    margin-bottom: 20px;
+}
+.sixth .six2 input{
+    border: 20x solid gray;
+    box-shadow: 2px 2px rgb(232, 226, 226);
+}
+.sixth .six2 #fname,#lname,#no,#email{
+    width: 180px;
+    margin: 10px;
+    padding: 8px;
+}
+.sixth .six2 #client{
+    width: 418px;
+    padding: 8px;
+    color: gray;
+    box-shadow: 2px 2px rgb(232, 226, 226);
+    margin: 10px;
+}
+.sixth .six2 #msg{
+    width: 400px;
+    padding: 8px;
+    height: 100px;
+    color: gray;
+    margin: 10px;
+}
+.sixth .six2 button{
+    padding: 12px 40px;
+    margin:  5px 0px;
+    background-color: orange;
+    border: 15px solid white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.seventh {
+    height: 680px;
+    width: 1420px;
+    text-align: center;
+    border: 2px solid rgb(209, 205, 205);
+}
+.seventh .h{
+    font-size: 2.3rem;
+    margin-top: 60px;
+    font-weight: 600;
+    color: rgb(50, 46, 46);
+}
+.seventh .line{
+    background-color: orange;
+    width: 60px;
+    height: 1.8px;
+    border: 2px solid orange;
+}
+.seventh .blocks{
+    width: 1420px;
+    margin: 50px 0px;
+    position: relative;
+    display: flex;height:340px;
+    /* border: 2px solid orange; */
+}
+.seventh .blocks .leftb{
+    border: none;
+    margin: 130px 0px;
+    background-color: initial;
+    position: absolute;
+    color: gray;
+    margin-left: 20px;
+    font-size: 2rem;
+
+}
+.seventh .blocks .rightb{
+    border: none;
+margin-left: 1360px;    background-color: initial;
+    position: absolute;
+    color: gray;
+    margin-top: 130px;
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+.seventh .all{
+    padding: 14px 30px;
+    background-color: orange;
+    border: 15px solid white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.seventh .svn-block{
+    width: 1420px;
+    /* border: 2px solid orange; */
+    display: flex;
+    overflow: hidden;
+}
+.seventh .blocks .svn-block .b{
+    height: 320px;
+    /* border: 2px solid gray; */
+    margin: 6px;
+}
+.seventh .b img{
+    height: 260px;
+    width: 270px;
+    box-shadow: 2px 2px 2px 2px rgb(212, 205, 205);
+}
+.seventh .b .name{
+    font-size: 1.4rem;
+    margin: 2px;
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.seventh .b:hover{
+    width: 321px;
+    height: 310px;
+    color: orange;
+    transform: translate3d(1px, 1px, 1px) scale(1);
+    box-shadow: 2px 2px rgb(207, 195, 195), 2px 2px 2px 2px rgb(216, 204, 204);
+
+}
+.eight{
+    width: 1420px;
+    height: 540px;
+    border: 2px solid gray;
+}
+.eight .e1{
+    height: 440px;
+    width: 290px;
+    padding: 50px 70px;
+    color: white;
+    margin-left: 200px;
+    background-color: rgb(64, 60, 60);
+}
+.eight .e1 .h{
+font-size: 2.5rem;
+}
+.eight .e1 .line{
+    background-color: orange;
+    width: 60px;
+    height: 1.px;
+margin-left: 0px; 
+margin-bottom: 50px;
+   border: 2px solid orange;
+}
+
+.eight .e1 .co{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;
+    padding: 8px 0px;
+}
+.eight .e1 .co img{
+    width: 30px;
+    margin-right: 10px;
+    height: 30px;
+}
+.eight .e1 .loc img{
+    height: 50px;
+    margin-top: 5px;
+}
+.eight .e1 .co .n .n1{
+    font-size: 1.3rem;
+}
+.ninth{
+    height: 220px;
+    padding: 30px 120px;
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+}
+.ninth .nin{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.ninth .nin img{
+    width: 220px;
+    padding: 0px 10px;
+    height: 100px;
+}
+.ninth .nin .ic img{
+    margin: 5px;
+    height: 30px;
+    width: 20px;
+    border: 1px solid black;
+}
+.ninth .nin .h{
+    font-size: 1.1rem;
+    font-weight:bolder;
+    margin-bottom: 10px;
+    color: rgb(50, 47, 47);
+}
+.ninth .nin a{
+    text-decoration: none;
+    color: rgb(98, 96, 96);
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+.ninth .nin .co{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    color: rgb(98, 96, 96);
+}
+.ninth .nin .co .img img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.ninth .nin .con{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    color: rgb(98, 96, 96);
+    font-size: 0.9rem; 
+}
+.ninth .nin .email #email{
+    margin: 10px 0px;
+    width: 240px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+}
+.ninth .nin .email button{
+    height: 36px;
+}
+footer{
+    width: 1400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px;
+    background-color: rgb(32, 25, 25);
+    color: rgb(219, 212, 212);
+}
